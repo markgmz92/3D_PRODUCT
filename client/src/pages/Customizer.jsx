@@ -24,7 +24,7 @@ const Customizer = () => {
       {!snap.intro && (
         <>
           <motion.div
-            key='cusom'
+            key='custom'
             className='absolute top-0 left-0 z-10'
             {...slideAnimation('left')}
           >
